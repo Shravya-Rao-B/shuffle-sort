@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: #EFEFEF;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.ttl {
+    text-align: center;
+    border-bottom: 5px solid #BFBFBF;
+    padding: 10px;
+}
+  .col-cards {
+    float: left;
+    width: 80%;
+    margin: 0px;
+    /* padding: 10px; */
+  }
+h1 {
+  padding: 1rem;
+}
+  .col-btns {
+    float: right;
+    width: 20%;
+    padding: 3rem;
+    text-align: center;
+  }
+  .btn {
+    padding : 1rem;
+    width : 10rem;
+    display: block;
+    border-radius: 10px;
+    border :none;
+    font-size: 0.8rem;
+    color: #fff;
+    text-transform: uppercase;
+    box-shadow:  0px 5px 0px #2b8ead;
+    margin-bottom: 2rem;
+  }
+  .column {
+    float: left;
+    width: 33%;
+    padding: 2.5rem;
+    text-align: center;
+    font-size: 5rem;
+    color: white;
+    margin: 0px;
+  }
+.col1, .col9{
+    background-color: #6F98A8   
+}
+.col2, .col4, .col8 {
+    background-color: #2B8EAD;   
+}
+.col3 , .col5{
+    background-color: #2F454E;  
+}
+  .col6 ,.col7 {
+    background-color: #BFBFBF;
+  }
+button {
+    background-color: #72C3DC;
+}
+  @media screen and (max-width: 960px) {
+    .column {
+      width: 50%;
+    }
+  }
+  @media screen and (max-width: 375px) {
+    body {
+      background-color: white;
+    }
+
+    .column {
+      width: 100%;
+      padding: 1.5rem;
+      text-align: center;
+      font-size: 1rem;
+      color: black;
+      margin-top: 0.5rem;
+      background-color: #EFEFEF;
+    }
+
+    .col1 , .col9 {
+      border-left: 7px solid #6F98A8 ;
+    }
+
+    .col2, .col4, .col8 {
+        border-left: 7px solid #2B8EAD;
+    }
+
+    .col3, .col5 {
+        border-left: 7px solid #2F454E;
+    }
+
+    .col6, .col7 {
+        border-left: 7px solid #BFBFBF;
+    }
+    .col-cards {
+      width: 100%
+    }
+
+    .col-btns {
+      width: 100%;
+      top: 0;
+      padding : 1rem;
+    }
+    .btn {
+      padding :1rem;
+      width : 5rem;
+      border-radius: 10px;
+      border :none;
+      font-size: 0.7rem;
+      color: #fff;
+      text-transform: uppercase;
+      box-shadow:  0px 5px 0px #2b8ead;
+      display: inline-block;
+      margin : 0.5rem;
+    }
+    .btnCls{
+      margin-bottom: none;
+    }
+  }
